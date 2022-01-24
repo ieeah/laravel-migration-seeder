@@ -6,7 +6,7 @@
 				<a href="/">Home Page</a>
 			</li>
 			<li>
-				<a href="{{Route('last_offers')}}">Ultime Offerte</a>
+				<a href="{{Route('offers')}}">Ultime Offerte</a>
 			</li>
 		</ul>
 	</nav>

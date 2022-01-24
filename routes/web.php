@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Offer;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +19,5 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/offers', function () {
-	return view('last_offers');
-})->name('last_offers');
+	return view('offers');
+})->name('offers');
